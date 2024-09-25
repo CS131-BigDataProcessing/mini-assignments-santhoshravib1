@@ -1,0 +1,2 @@
+6 # This number provides us with the number of lines which the phrase "Good luck, babe" is mentioned.
+78 # This number provides us with the total number of words across each of the 6 lines in which the phrase "Good luck, babe" is involved (13 words in each of the 6 lines, which makes it 78 total word count).
