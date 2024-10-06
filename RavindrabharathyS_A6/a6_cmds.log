@@ -1,0 +1,563 @@
+    1  pwd
+    2  passwd
+    3  ssh-keygen -t ed25519 -C "santhosh.ravindrabharathy@sjsu.edu"
+    4  ls -lah
+    5  cd .ssh
+    6  ls 
+    7  cat id_ed25519.pub
+    8  git clone git@github.com:santhoshravib1/a1-collab-santhoshravib1.git
+    9  git switch -c santhoshravi-colab
+   10  ls 
+   11  rm -rf a1-collab-santhoshravib1/
+   12  ls
+   13  cd ..
+   14  git clone git@github.com:santhoshravib1/a1-collab-santhoshravib1.git
+   15  cd a1-collab-santhoshravib1/
+   16  git switch -c santhoshravib1-colab
+   17  vim Collaborators.md
+   18  cat Collaborators.md
+   19  git pull origin main
+   20  git checkout main
+   21  git merge santhoshravib1-colab
+   22  git commit -m "Santhosh Ravindrabharathy added to collaborators"
+   23  cd .git
+   24  vim config
+   25  cd ..
+   26  git commit -m "Santhosh Ravindrabharathy added to collaborators"
+   27  git add Collaborators.md
+   28  git commit -m "Santhosh Ravindrabharathy added to collaborators"
+   29  git push
+   30  pwd
+   31  /mnt/scratch/FA24_CS131_Jessica/sravindrabharathyfa24
+   32  passwd
+   33  ssh-keygen -t ed25519 -C "santhosh.ravindrabharathy@sjsu.edu"
+   34  cd .ssh
+   35  ls
+   36  cat id_ed25519.pub
+   37  git clone git@github.com:CS131-BigDataProcessing/mini-assignments-santhoshravib1.git
+   38  git add Ravindrabharathy-S_A2
+   39  cd Ravindrabharathy-S_a2_cmds.log
+   40  Ravindrabharathy-S_A2/Ravindrabharathy-S_a2_cmds.log
+   41  ls
+   42  cd ..
+   43  cd mini-assignments-santhoshravib1
+   44  cd .ssh
+   45  cd mini-assignments-santhoshravib1
+   46  ls
+   47  cd .. 
+   48  cd ..
+   49  ls
+   50  cd .ssh
+   51  cd ..
+   52  git clone git@github.com:CS131-BigDataProcessing/CS131_fa24_datafiles.git
+   53  cd CS131_fa24_datafiles/
+   54  ls
+   55  cd Lec02
+   56  ls
+   57  cat goodluck.txt
+   58  grep -o '\bwor[a-zA-Z]*\b' goodluck.txt
+   59  grep -o '\bdred[a-zA-Z]*\b' goodluck.txt
+   60  grep 'Good luck, babe' goodluck.txt
+   61  grep 'Good luck, babe' goodluck.txt | wc -l
+   62  grep 'Good luck, babe' goodluck.txt | wc -w
+   63  grep 'Good luck, babe' goodluck.txt | wc -l > Ravindrabharathy-S_a2_counts.txt
+   64  grep 'Good luck, babe' goodluck.txt | wc -w >> Ravindrabharathy-S_a2_counts.txt
+   65  vi Ravindrabharathy-S_a2_counts.txt
+   66  cd ..
+   67  history > Ravindrabharathy-S_a2_cmds.log
+   68  cd .ssh
+   69  cd mini-assignments-santhoshravib1/
+   70  mkdir Ravindrabharathy-S_A2
+   71  ls
+   72  cd Ravindrabharathy-S_A2/
+   73  cp /Users/santhoshravib/CS131_fa24_datafiles/Lec02/Ravindrabharathy-S_a2_counts.txt .
+   74  ls
+   75  cd ..
+   76  ls
+   77  cd ..
+   78  ls
+   79  cd ..
+   80  ls
+   81  cp ~/.ssh/CS131_fa24_datafiles/Lec02/Ravindrabharathy-S_a2_counts.txt .
+   82  cp ~/CS131_fa24_datafiles/Lec02/Ravindrabharathy-S_a2_counts.txt .
+   83  ls
+   84  cd .ssh
+   85  cd mini-assignments-santhoshravib1/
+   86  cd Ravindrabharathy-S_A2/
+   87  cp ~/Ravindrabharathy-S_a2_counts.txt .
+   88  cp ~/Ravindrabharathy-S_a2_cmds.log .
+   89  ls
+   90  git status
+   91  cd ..
+   92  git add Ravindrabharathy-S_A2
+   93  git status
+   94  git commit -m "V.A2: adding Ravindrabharathy-S_A2 directory, which includes Ravindrabharathy-S_a2_cmds.log and Ravindrabharathy-S_a2_counts.txt"
+   95  vim config
+   96  git status
+   97  git push
+   98  git commiy
+   99  git commit
+  100  git push
+  101  git push origin main
+  102  git branch
+  103  git push -f origin your-branch-name
+  104  git push -f origin main
+  105  cd .. 
+  106  cd ..
+  107  cd .ssh
+  108  cd mini-assignments-santhoshravib1/
+  109  cd ..
+  110  touch echoing.sh
+  111  vim echoing.sh
+  112  chmod +x echoing.sh
+  113  ./echoing.sh
+  114  Santhosh 20
+  115  ./echoing.sh Santhosh 20
+  116  ls
+  117  cd mini-assignments-santhoshravib1/
+  118  mkdir Ravindrabharathy-S_A4
+  119  cd Ravindrabharathy-S_A4
+  120  mv echoing.sh Ravindrabharathy-S_A4
+  121  cd ..
+  122  mv echoing.sh Ravindrabharathy-S_A4
+  123  ls
+  124  mv Ravindrabharathy-S_A4 mini-assignments-santhoshravib1/
+  125  cd Ravindrabharathy-S_A4
+  126  cd mini-assignments-santhoshravib1/
+  127  ls
+  128  cd Ravindrabharathy-S_A4
+  129  ls
+  130  mv echoing.sh Ravindrabharathy-S_A4
+  131  mv echoing.sh mini-assignments-santhoshravib1/Ravindrabharathy-S_A4/
+  132  cd ..
+  133  mv echoing.sh mini-assignments-santhoshravib1/Ravindrabharathy-S_A4/
+  134  cd Ravindrabharathy-S_A4
+  135  ls
+  136  cd ..
+  137  ls
+  138  cd ..
+  139  ls
+  140  cd ..
+  141  ls
+  142  cp echoing.sh mini-assignments-santhoshravib1/Ravindrabharathy-S_A4/
+  143  cd ~/.ssh
+  144  cp echoing.sh ~/mini-assignments-santhoshravib1/Ravindrabharathy-S_A4/
+  145  cd mini-assignments-santhoshravib1/
+  146  cd Ravindrabharathy-S_A
+  147  ls
+  148  cd Ravindrabharathy-S_A4
+  149  cd ..
+  150  find ~ -name "echoing.sh"
+  151  cd .ssh
+  152  cd mini-assignments-santhoshravib1/
+  153  cd Ravindrabharathy-S_A4
+  154  touch echoing.sh
+  155  vim echoing.sh 
+  156  chmod +x echoing.sh
+  157  ./echoing.sh
+  158  ./echoing.sh Santhosh 20
+  159  cd ..
+  160  git add Ravindrabharathy-S_A4/
+  161  vim config
+  162  cd ..
+  163  cd .git
+  164  cd .ssh
+  165  cd mini-assignments-santhoshravib1/
+  166  git commit -m "A4"
+  167  git push origin main
+  168  git push -f  origin main
+  169  vim config
+  170  git status
+  171  git push origin main
+  172  cd .ssh
+  173  cd .git
+  174  cd mini-assignments-santhoshravib1/
+  175  cd .git
+  176  git status
+  177  cd ..
+  178  git status
+  179  git push
+  180  ls -a
+  181  git pull
+  182  ls -a 
+  183  ls config 
+  184  cat config 
+  185  passwd
+  186  ssh-keygen -t ed25519 -C "santhosh.ravindrabharathy@sjsu.edu"
+  187  ls -lah
+  188  cd .ssh
+  189  ls
+  190  cat id_ed25519.pub
+  191  git clone git@github.com:CS131-BigDataProcessing/mini-assignments-santhoshravib1.git
+  192  cd mini-assignments-santhoshravib1/
+  193  ls
+  194  mkdir Ravindrabharathy-S_A5
+  195  cd Ravindrabharathy-S_A5
+  196  touch age.sh
+  197  vim age.sh
+  198  ls
+  199  touch temperature.sh
+  200  vim temperature.sh
+  201  ls
+  202  ./age.sh 5
+  203  /age.sh 5
+  204  sh age.sh 5
+  205  sh age.sh 17
+  206  sh age.sh 48
+  207  sh age.sh 72
+  208  sh temperature.sh 62
+  209  sh temperature.sh 5
+  210  sh temperature.sh 97
+  211  sh temperature.sh 73
+  212  git pull origin main
+  213  git checkout main
+  214  git status
+  215  cd .git
+  216  cd ..
+  217  cd .git
+  218  vim config
+  219  cd ..
+  220  git add Ravindrabharathy-S_A5/
+  221  git add Ravindrabharathy-S_A4
+  222  git add Ravindrabharathy-S_A2
+  223  git status
+  224  ls
+  225  git commit -m added project to git"
+  226  fdgdf
+  227  git push
+  228  [sravindrabharathyfa24@sjsu a1-collab-santhoshravib1]$ git push
+  229  ..
+  230  git commit -m "added project to git"
+  231  git push
+  232  ls
+  233  open ~/.ssh/config
+  234  ssh-keygen -t ed25519 -C santhosh.ravindrabharathy@sjsu.edu
+  235  eval "$(ssh-agent -s)"
+  236  open ~/.ssh/config
+  237  touch ~/.ssh/config
+  238  vim config
+  239  vim ~/.ssh/config
+  240  ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+  241  eval "$([sravindrabharathyfa24@sjsu ~]$ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+  242  unknown option -- -
+  243  usage: ssh-add [options] [file ...]
+  244  Options:
+  245    -l          List fingerprints of all identities.
+  246    -E hash     Specify hash algorithm used for fingerprints.
+  247    -L          List public key parameters of all identities.
+  248    -k          Load only keys and not certificates.
+  249    -c          Require confirmation to sign using identities
+  250    -m minleft  Maxsign is only changed if less than minleft are left (for XMSS)
+  251    -M maxsign  Maximum number of signatures allowed (for XMSS)
+  252    -t life     Set lifetime (in seconds) when adding identities.
+  253    -d          Delete identity.
+  254    -D          Delete all identities.
+  255    -x          Lock agent.
+  256    -X          Unlock agent.
+  257    -s pkcs11   Add keys from PKCS#11 provider.
+  258    -e pkcs11   Remove keys provided by PKCS#11 provider.
+  259    -T pubkey   Test if ssh-agent can access matching private key.
+  260    -q          Be quiet after a successful operation.
+  261    -v          Be more verbose.
+  262  fdsf
+  263  eval "$([sravindrabharathyfa24@sjsu ~]$ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+  264  unknown option -- -
+  265  usage: ssh-add [options] [file ...]
+  266  Options:
+  267    -l          List fingerprints of all identities.
+  268    -E hash     Specify hash algorithm used for fingerprints.
+  269    -L          List public key parameters of all identities.
+  270    -k          Load only keys and not certificates.
+  271    -c          Require confirmation to sign using identities
+  272    -m minleft  Maxsign is only changed if less than minleft are left (for XMSS)
+  273    -M maxsign  Maximum number of signatures allowed (for XMSS)
+  274    -t life     Set lifetime (in seconds) when adding identities.
+  275    -d          Delete identity.
+  276    -D          Delete all identities.
+  277    -x          Lock agent.
+  278    -X          Unlock agent.
+  279    -s pkcs11   Add keys from PKS#11 provider.
+  280    -e pkcs11   Remove keys provided by PKCS#11 provider.
+  281    -T pubkey   Test if ssh-agent can access matching private key.
+  282    -q          Be quiet after a successful operation.
+  283    -v          Be more verbose.
+  284  fdsf
+  285  gfd
+  286  eval "$([sravindrabharathyfa24@sjsu ~]$ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+  287  unknown option -- -
+  288  usage: ssh-add [options] [file ...]
+  289  Options:
+  290    -l          List fingerprints of all identities.
+  291    -E hash     Specify hash algorithm used for fingerprints.
+  292    -L          List public key parameters of all identities.
+  293    -k          Load only keys and not certificates.
+  294    -c          Require confirmation to sign using identities
+  295    -m minleft  Maxsign is only changed if less than minleft are left (for XMSS)
+  296    -M maxsign  Maximum number of signatures allowed (for XMSS)
+  297    -t life     Set lifetime (in seconds) when adding identities.
+  298    -d          Delete identity.
+  299    -D          Delete all identities.
+  300    -x          Lock agent.
+  301    -X          Unlock agent.
+  302    -s pkcs11   Add keys from PKS#11 provider.
+  303    -e pkcs11   Remove keys provided by PKCS#11 provider.
+  304    -T pubkey   Test if ssh-agent can access matching private key.
+  305    -q          Be quiet after a successful operation.
+  306    -v          Be more verbose.
+  307  fdsf
+  308  eval "$([sravindrabharathyfa24@sjsu ~]$ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+  309  unknown option -- -
+  310  usage: ssh-add [options] [file ...]
+  311  Options:
+  312    -l          List fingerprints of all identities.
+  313    -E hash     Specify hash algorithm used for fingerprints.
+  314    -L          List public key parameters of all identities.
+  315    -k          Load only keys and not certificates.
+  316    -c          Require confirmation to sign using identities
+  317    -m minleft  Maxsign is only changed if less than minleft are left (for XMSS)
+  318    -M maxsign  Maximum number of signatures allowed (for XMSS)
+  319    -t life     Set lifetime (in seconds) when adding identities.
+  320    -d          Delete identity.
+  321    -D          Delete all identities.
+  322    -x          Lock agent.
+  323    -X          Unlock agent.
+  324    -s pkcs11   Add keys from PKS#11 provider.
+  325    -e pkcs11   Remove keys provided by PKCS#11 provider.
+  326    -T pubkey   Test if ssh-agent can access matching private key.
+  327    -q          Be quiet after a successful operation.
+  328    -v          Be more verbose.
+  329  fdsf
+  330  gfd
+  331  eval "$([sravindrabharathyfa24@sjsu ~]$ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+  332  unknown option -- -
+  333  usage: ssh-add [options] [file ...]
+  334  Options:
+  335    -l          List fingerprints of all identities.
+  336    -E hash     Specify hash algorithm used for fingerprints.
+  337    -L          List public key parameters of all identities.
+  338    -k          Load only keys and not certificates.
+  339    -c          Require confirmation to sign using identities
+  340    -m minleft  Maxsign is only changed if less than minleft are left (for XMSS)
+  341    -M maxsign  Maximum number of signatures allowed (for XMSS)
+  342    -t life     Set lifetime (in seconds) when adding identities.
+  343    -d          Delete identity.
+  344    -D          Delete all identities.
+  345    -x          Lock agent.
+  346    -X          Unlock agent.
+  347    -s pkcs11   Add keys from PKS#11 provider.
+  348    -e pkcs11   Remove keys provided by PKCS#11 provider.
+  349    -T pubkey   Test if ssh-agent can access matching private key.
+  350    -q          Be quiet after a successful operation.
+  351    -v          Be more verbose.
+  352  fdsf
+  353  eval "$([sravindrabharathyfa24@sjsu ~]$ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+  354  unknown option -- -
+  355  usage: ssh-add [options] [file ...]
+  356  Options:
+  357    -l          List fingerprints of all identities.
+  358    -E hash     Specify hash algorithm used for fingerprints.
+  359    -L          List public key parameters of all identities.
+  360    -k          Load only keys and not certificates.
+  361    -c          Require confirmation to sign using identities
+  362    -m minleft  Maxsign is only changed if less than minleft are left (for XMSS)
+  363    -M maxsign  Maximum number of signatures allowed (for XMSS)
+  364    -t life     Set lifetime (in seconds) when adding identities.
+  365    -d          Delete identity.
+  366    -D          Delete all identities.
+  367    -x          Lock agent.
+  368    -X          Unlock agent.
+  369    -s pkcs11   Add keys from PKS#11 provider.
+  370    -e pkcs11   Remove keys provided by PKCS#11 provider.
+  371    -T pubkey   Test if ssh-agent can access matching private key.
+  372    -q          Be quiet after a successful operation.
+  373    -v          Be more verbose.
+  374  fdsf
+  375  gfd
+  376  eval "$([sravindrabharathyfa24@sjsu ~]$ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+  377  unknown option -- -
+  378  usage: ssh-add [options] [file ...]
+  379  Options:
+  380    -l          List fingerprints of all identities.
+  381    -E hash     Specify hash algorithm used for fingerprints.
+  382    -L          List public key parameters of all identities.
+  383    -k          Load only keys and not certificates.
+  384    -c          Require confirmation to sign using identities
+  385    -m minleft  Maxsign is only changed if less than minleft are left (for XMSS)
+  386    -M maxsign  Maximum number of signatures allowed (for XMSS)
+  387    -t life     Set lifetime (in seconds) when adding identities.
+  388    -d          Delete identity.
+  389    -D          Delete all identities.
+  390    -x          Lock agent.
+  391    -X          Unlock agent.
+  392    -s pkcs11   Add keys from PKS#11 provider.
+  393    -e pkcs11   Remove keys provided by PKCS#11 provider.
+  394    -T pubkey   Test if ssh-agent can access matching private key.
+  395    -q          Be quiet after a successful operation.
+  396    -v          Be more verbose.
+  397  fdsf
+  398  eval "$([sravindrabharathyfa24@sjsu ~]$ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+  399  unknown option -- -
+  400  usage: ssh-add [options] [file ...]
+  401  Options:
+  402    -l          List fingerprints of all identities.
+  403    -E hash     Specify hash algorithm used for fingerprints.
+  404    -L          List public key parameters of all identities.
+  405    -k          Load only keys and not certificates.
+  406    -c          Require confirmation to sign using identities
+  407    -m minleft  Maxsign is only changed if less than minleft are left (for XMSS)
+  408    -M maxsign  Maximum number of signatures allowed (for XMSS)
+  409    -t life     Set lifetime (in seconds) when adding identities.
+  410    -d          Delete identity.
+  411    -D          Delete all identities.
+  412    -x          Lock agent.
+  413    -X          Unlock agent.
+  414    -s pkcs11   Add keys from PKS#11 provider.
+  415    -e pkcs11   Remove keys provided by PKCS#11 provider.
+  416    -T pubkey   Test if ssh-agent can access matching private key.
+  417    -q          Be quiet after a successful operation.
+  418    -v          Be more verbose.
+  419  fdsf
+  420  gfd
+  421  sdfafadga
+  422  [sravindrabharathyfa24@sjsu ~]$ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+  423  unknown option -- -
+  424  usage: ssh-add [options] [file ...]
+  425  Options:
+  426    -l          List fingerprints of all identities.
+  427    -E hash     Specify hash algorithm used for fingerprints.
+  428    -L          List public key parameters of all identities.
+  429    -k          Load only keys and not certificates.
+  430    -c          Require confirmation to sign using identities
+  431    -m minleft  Maxsign is only changed if less than minleft are left (for XMSS)
+  432    -M maxsign  Maximum number of signatures allowed (for XMSS)
+  433    -t life     Set lifetime (in seconds) when adding identities.
+  434    -d          Delete identity.
+  435    -D          Delete all identities.
+  436    -x          Lock agent.
+  437    -X          Unlock agent.
+  438    -s pkcs11   Add keys from PKCS#11 provider.
+  439    -e pkcs11   Remove keys provided by PKCS#11 provider.
+  440    -T pubkey   Test if ssh-agent can access matching private key.
+  441    -q          Be quiet after a successful operation.
+  442    -v          Be more verbose.
+  443  ssh-keygen -t ed25519 -C santhosh.ravindrabharathy@sjsu.edu
+  444  eval "$(ssh-agent -s)"
+  445  open ~/.ssh/config
+  446  touch ~/.ssh/config
+  447  vim ~/.ssh/config
+  448  eval "$(ssh-add --apple-use-keychain ~/.ssh/id_ed25519)"
+  449  eval "$(ssh-add ~/.ssh/id_ed25519)"
+  450  cat ~/.ssh/id_ed25519.pub
+  451  cd .ssh
+  452  ls
+  453  cd mini-assignments-santhoshravib1/
+  454  ls
+  455  cd Ravindrabharathy-S_A2
+  456  ls
+  457  cd ..
+  458  cd Ravindrabharathy-S_A4
+  459  ls
+  460  cd ..
+  461  cd Ravindrabharathy-S_A5
+  462  ls
+  463  cd Ravindrabharathy-S_A4
+  464  cd ..
+  465  cd Ravindrabharathy-S_A4
+  466  ls
+  467  cat echoing.sh 
+  468  cd .git
+  469  cd ..
+  470  cd .git
+  471  ls
+  472  vim config
+  473  cd ..
+  474  git status
+  475  git commit -m "project added to github"
+  476  git Ravindrabharathy-S_A2
+  477  git add Ravindrabharathy-S_A2
+  478  git status
+  479  git push
+  480  git status
+  481  git ad
+  482  git add
+  483  git add Ravindrabharathy-S_A4
+  484  git add Ravindrabharathy-S_A5
+  485  git status
+  486  git push
+  487  vim config
+  488  cd .git
+  489  vim config
+  490  cd ..
+  491  vim config
+  492  git push
+  493  git push origin main
+  494  chmod 700 ~/.ssh
+  495  chmod 600 ~/.ssh/config
+  496  chmod 600 ~/.ssh/id_ed25519
+  497  chmod 644 ~/.ssh/id_ed25519.pub
+  498  git push origin main
+  499  ssh-keygen -t ed25519 -C santhosh.ravindrabharathy@sjsu.edu
+  500  eval "$(ssh-add ~/.ssh/id_ed25519)"
+  501  eval "$(ssh-agent -s)"
+  502  touch ~/.ssh/config
+  503  vim ~/.ssh/config
+  504  eval "$(ssh-add ~/.ssh/id_ed25519)"
+  505  cat ~/.ssh/id_ed25519.pub
+  506  cd .ssh
+  507  cd .git
+  508  cd ..
+  509  cd .git
+  510  ls
+  511  cd CS131_fa24_datafiles/
+  512  cd Lec08
+  513  git remote -v
+  514  git fetch origin
+  515  vim config
+  516  ls ~/.ssh/id_ed25519 ~/.ssh/id_rsa
+  517  cd ..
+  518  ls ~/.ssh/id_ed25519 ~/.ssh/id_rsa
+  519  ls ~/.ssh/id_ed25519
+  520  eval "$(ssh-agent -s)"
+  521  ssh-add ~/.ssh/id_ed25519
+  522  cat ~/.ssh/id_ed25519.pub
+  523  ssh -T git@github.com
+  524  cat ~/.ssh/id_ed25519.pub
+  525  eval "$(ssh-agent -s)"
+  526  ssh-add ~/.ssh/id_ed25519
+  527  vim ~/.ssh/config
+  528  ssh -vT git@github.com
+  529  cat ~/.ssh/id_ed25519.pub
+  530  ssh -T git@github.com
+  531  cd CS131_fa24_datafiles/
+  532  git remote -v
+  533  git fetch origin
+  534  cd Lec08
+  535  git pull origin main
+  536  git status
+  537  ls
+  538  cd Lec08
+  539  cat airline_stats.csv 
+  540  cd .ssh
+  541  ls
+  542  cd .git
+  543  cd ..
+  544  ls
+  545  cd CS131_fa24_datafiles/
+  546  ls
+  547  cd Lec08
+  548  ls
+  549  awk -F',' '{print $1}' airline_stats.csv | sort | uniq > airline_inquiry.txt
+  550  awk -F',' '$[Carrier_Delay_Column] > 10 {print $[Airline_Name_Column]}' airline_stats.csv | sort | uniq >> airline_inquiry.txt
+  551  awk -F',' -v Threshold=15 '$[Carrier_Delay_Column] > Threshold {print $[Airline_Name_Column]}' airline_stats.csv | sort | uniq >> airline_inquiry.txt
+  552  cd .ssh
+  553  ls
+  554  cd ..
+  555  ls
+  556  cd CS131_fa24_datafiles/
+  557  cd Lec08
+  558  head -n 5 airline_stats.csv
+  559  awk -F',' '{print $4}' airline_stats.csv | sort | uniq > airline_inquiry.txt
+  560  awk -F',' '$1 > 10 {print $4}' airline_stats.csv | sort | uniq >> airline_inquiry.txt
+  561  awk -F',' -v Threshold=15 '$1 > Threshold {print $4}' airline_stats.csv | sort | uniq >> airline_inquiry.txt
+  562  cat airline_inquiry.txt
+  563  history > a6_cmds.log
