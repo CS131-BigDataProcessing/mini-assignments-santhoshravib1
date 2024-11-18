@@ -1,0 +1,46 @@
+1. How to Set Up and Test the Daily File Cleanup Task
+Steps to Set Up
+Open the crontab for editing:
+crontab -e
+Add the following entry to delete all files in the ~/test directory daily at 2:00 AM:
+0 2 * * * rm -rf ~/test/*
+Save and exit the crontab editor.
+Steps to Test
+Temporarily change the schedule to run the cleanup job every minute for testing:
+
+* * * * * rm -rf ~/test/*
+Create some test files in the directory:
+
+touch ~/test/test_file1.txt ~/test/test_file2.txt
+Wait for one minute, then check the directory:
+
+ls ~/test
+If the job works correctly, the directory should be empty.
+
+Once tested, restore the original schedule by editing the crontab:
+
+0 2 * * * rm -rf ~/test/*
+2. How to Schedule a Weekly Backup and Verify It Works
+Steps to Set Up
+Open the crontab for editing:
+crontab -e
+Add the following entry to create a backup of the ~/test directory every Sunday at 3:00 AM:
+0 3 * * 0 tar -czf ~/test_backup_$(date +\%F).tar.gz ~/test/
+The $(date +\%F) generates the current date (e.g., 2024-11-17) for the backup filename.
+Save and exit the crontab editor.
+Steps to Verify
+Test the job manually by running the command directly in the terminal:
+tar -czf ~/test_backup_$(date +%F).tar.gz ~/test/
+Check the ~ directory for the backup file:
+ls ~ | grep "test_backup"
+If successful, restore the crontab and let the job run on schedule.
+3. How to Write the Cron Job to Send a Disk Usage Report
+Cron Job
+To email a daily disk usage report at 8:30 AM, use the following cron entry:
+
+Open the crontab:
+crontab -e
+Add this entry:
+30 8 * * * df -h | mail -s "Daily Disk Usage Report" your_email@example.com
+df -h: Displays disk usage in a human-readable format.
+mail -s: Sends the report with the subject "Daily Disk Usage Report."

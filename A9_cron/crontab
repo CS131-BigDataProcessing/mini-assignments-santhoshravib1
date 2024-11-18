@@ -1,0 +1,4 @@
+0 2 * * * rm -rf ~/test/*
+* * * * * rm -rf ~/test/*
+0 3 * * 0 tar -czf ~/test_backup_$(date +\%F).tar.gz ~/test/
+30 8 * * * df -h | mail -s "Daily Disk Usage Report" santhosh.ravindrabharathy@sjsu.edu
